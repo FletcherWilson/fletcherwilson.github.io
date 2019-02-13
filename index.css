@@ -2,6 +2,10 @@ body {
   background-color: white;
   color: #55fb6b;
   font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 h1 {
@@ -10,55 +14,44 @@ h1 {
 color: #ff4a0e;
 }
 
-h2 {
-  text-align: right;
-  font-family: 'IBM Plex Mono', monospace;
-color: #ff4a0e;
-font size: 50px;
-}
 
 p {
   color: black;
 }
 
+.a {
+  text-decorator: none;
+}
 
-.buttons{
-    background-color: auto;
+button {
+    background-color: default;
     color: black;
     margin: 0;
     padding: 0;
     width:auto;
     height:auto;
+    font-size: 20px;
   }
 
 .container{
-    background-color: blue;
+    background-color: white;
     display: flex;
     flex direction: row-reverse;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: flex-start;
     }
 
 .items{
+  float: right;
   order: 1, 2, 3, 4,;
   flex-grow: 1;
 }
 
-
-}
-
-nav-bar{
-  position: fixed;
-}
 .fw-pic {
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-.fw-pic img{
-      height: 2em;
-      margin-right: 5px;
+      height: 200px;
+      margin-bottom: 30px;
+      margin-left: 1000px;
+      margin-right: 50px;
+      margin-top: 50px;
+      transform: rotate(90deg);
     }
-
-  }
-}

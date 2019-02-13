@@ -4,6 +4,17 @@ body{
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #b8b3c4;
+}
+
+.footer-nav{
+  background-color: white;
+  z-index:10;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
+  position: fixed;
+  width:100%;
+  left: 0px;
+  top: 0px;
 }
 
 .header-nav{
@@ -15,19 +26,22 @@ body{
 .header-nav-item{
   padding: 5px 10px;
   color: black;
-  border-bottom: solid 1px #ebecec;
-  display: block;
+  display: flex;
   text-decoration: none;
+  text-align: right;
 
 }
 .page-container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position:
   }
 
 li {
   display: block;
+  text-align: right;
+
 }
 
 .header-container{
@@ -55,23 +69,23 @@ li {
 }
 
 p {
-
+text-align: justify;
 }
 
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
 img {
     padding: 0;
-    display: ;
+    display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
-}
 
+}
 
 .fw-pic {
       max-width: 99%;

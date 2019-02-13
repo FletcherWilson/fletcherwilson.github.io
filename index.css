@@ -1,9 +1,64 @@
 body {
-  background-color: blue;
+  background-color: white;
+  color: #55fb6b;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'IBM Plex Mono', monospace;
+color: #ff4a0e;
+}
+
+h2 {
+  text-align: right;
+  font-family: 'IBM Plex Mono', monospace;
+color: #ff4a0e;
+font size: 50px;
+}
+
+p {
+  color: black;
+}
+
+
+.buttons{
+    background-color: auto;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width:auto;
+    height:auto;
+  }
+
+.container{
+    background-color: blue;
+    display: flex;
+    flex direction: row-reverse;
+    justify-content: flex-start;
+    align-items: stretch;
+    }
+
+.items{
+  order: 1, 2, 3, 4,;
+  flex-grow: 1;
+}
 
 
 }
 
-h1 {
-  text-align: center;
+nav-bar{
+  position: fixed;
+}
+.fw-pic {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.fw-pic img{
+      height: 2em;
+      margin-right: 5px;
+    }
+
+  }
 }

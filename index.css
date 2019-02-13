@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(0 ,158,213);
   color: #55fb6b;
   font-family: 'IBM Plex Mono', monospace;
   margin-bottom: 50px;
@@ -11,7 +11,7 @@ body {
 h1 {
   text-align: left;
   font-family: 'IBM Plex Mono', monospace;
-color: #ff4a0e;
+color: #ffc42e;
 }
 
 
@@ -19,12 +19,12 @@ p {
   color: black;
 }
 
-.a {
-  text-decorator: none;
+a {
+  text-decorator: 0;
 }
 
 button {
-    background-color: default;
+    background-color: rgb(0 ,158,213);
     color: black;
     margin: 0;
     padding: 0;
@@ -33,25 +33,52 @@ button {
     font-size: 20px;
   }
 
-.container{
-    background-color: white;
+.page-container{
     display: flex;
-    flex direction: row-reverse;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.header-container{
+      z-index:10;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+      position: fixed;
+      width:100%;
+      left: 2px;
+      top: 2px;
+}
+
+.header-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  width:90%;
+  margin:auto;
+}
+.container{
+    background-color: rgb(0 ,158,213);
+    display: flex;
+    flex direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     }
 
 .items{
   float: right;
-  order: 1, 2, 3, 4,;
-  flex-grow: 1;
+
 }
 
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: right;
+}
 .fw-pic {
       height: 200px;
       margin-bottom: 30px;
       margin-left: 1000px;
       margin-right: 50px;
       margin-top: 50px;
-      transform: rotate(90deg);
+      transform:;
     }

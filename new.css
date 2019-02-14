@@ -24,11 +24,13 @@ body{
 }
 
 .header-nav-item{
+  display: flex;
   padding: 5px 10px;
   color: black;
-  display: flex;
   text-decoration: none;
   text-align: right;
+  justify-content: flex-end;
+
 
 }
 .page-container{
@@ -37,14 +39,13 @@ body{
     min-height: 100vh;
     position:
   }
-
-li {
-  display: block;
-  text-align: right;
-
-}
+  li {
+    display: block;
+    text-align: right;
+  }
 
 .header-container{
+      display: flex;
       background-color: white;
       z-index:10;
       box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
@@ -52,19 +53,20 @@ li {
       width:100%;
       left: 0px;
       top: 0px;
-
+      flex-direction: row;
 }
 
 .header-content{
-  text-align: left;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   padding-bottom: 10px;
   width: 95%;
   margin:auto;
-}
+  }
 
 .header-item{
+display: flex;
 
 }
 
@@ -85,6 +87,37 @@ img {
     max-height: 100%;
     max-width: 100%;
 
+}
+.footer-container {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      background-color: white;
+      z-index:10;
+      box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
+      position: float;
+      width:100%;
+      left: 0px;
+      top: 0px;
+}
+
+.footer-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 95%;
+    margin:auto;
+  }
+
+.footer-nav-item{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+  j
 }
 
 .fw-pic {

@@ -7,16 +7,6 @@ body{
   background-color: #b8b3c4;
 }
 
-.footer-nav{
-  background-color: white;
-  z-index:10;
-  box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
-  position: fixed;
-  width:100%;
-  left: 0px;
-  top: 0px;
-}
-
 .header-nav{
   display: flex;
   flex-direction: column;
@@ -46,7 +36,7 @@ body{
 
 .header-container{
       display: flex;
-      background-color: white;
+      background-color: #c4b6b3;
       z-index:10;
       box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
       position: fixed;
@@ -92,7 +82,7 @@ img {
       display: flex;
       flex-flow: row;
       justify-content: center;
-      background-color: white;
+      background-color: #c4b6b3;
       z-index:10;
       box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
       position: float;
@@ -117,8 +107,19 @@ img {
   padding: 5px 10px;
   color: black;
   text-decoration: none;
-  j
+
 }
+
+.footer-nav{
+  background-color: #c4beb3;
+  z-index:10;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
+  position: fixed;
+  width:100%;
+  left: 0px;
+  top: 0px;
+}
+
 
 .fw-pic {
       max-width: 99%;

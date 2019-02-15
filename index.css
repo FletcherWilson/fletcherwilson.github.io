@@ -10,7 +10,7 @@ body {
 
 h1 {
   text-align: left;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Felipa', cursive;
 color: #ffc42e;
 }
 
@@ -33,29 +33,7 @@ button {
     font-size: 20px;
   }
 
-.page-container{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
 
-.header-container{
-      z-index:10;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
-      position: fixed;
-      width:100%;
-      left: 2px;
-      top: 2px;
-}
-
-.header-content{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 40px;
-  width:90%;
-  margin:auto;
-}
 .container{
     background-color: rgb(0 ,158,213);
     display: flex;
@@ -69,11 +47,7 @@ button {
 
 }
 
-.header-nav{
-  display: flex;
-  flex-direction: column;
-  -ms-flex-align: right;
-}
+
 .fw-pic {
       height: 200px;
       margin-bottom: 30px;

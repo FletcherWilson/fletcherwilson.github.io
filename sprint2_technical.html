@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+      <link href= "new.css" rel="stylesheet" type="text/css" />
+      <meta charset= "UTF-8">
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Righteous" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Libre+Barcode+39+Text|Righteous" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page-container">
+        <header class="header-container">
+          <h1><a class="header-nav-item" href="new.html">FLETCHERS BLOG</a></h1>
+            <div class="header-content">
+                  <nav class="header-item">
+                      <ul class="header-nav">
+                        <strong>
+                          <li> <a class="header-nav-item" class="header-item" href="reflections.html">REFLECTIONS</a></li>
+                          <li> <a class="header-nav-item" class="header-item" href="contact.html">CONTACT</a></li>
+                          <li> <a class="header-nav-item" class="header-item" href="aboutme.html">ABOUT ME</a></li>
+                        </strong>
+                  </nav>
+            </div>
+        </header>
+
+        <div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <a name="top">
+            <h1><strong> TECHNICAL BLOG </strong></h1>
+
+<h2>What are the differences between relative, absolute, and fixed positioning?</h2>
+
+<p>Before defining the differences between absolute, relative and fixed positioning we must understand the postioning property</p>
+<h3>The position Property</h3>
+<p>The <strong>position</strong> property specifies the type of positioning method used for an element. Using CSS, this is presented as <font color="red"><strong> position: </strong></font>
+<br></br>
+There are five different position values:
+
+<ul>static <font color="red" class="list-position-absolute"><strong> position: static; </strong></font> </ul>
+<ul>relative <font color="red" class="list-position-absolute"><strong> position: relative; </strong></font></ul>
+<ul>fixed <font color="red" class="list-position-absolute"><strong> position: fixed; </strong></font></ul>
+<ul>absolute <font color="red" class="list-position-absolute"><strong> position: absolute; </strong></font></ul>
+<ul>sticky <font color="red" class="list-position-absolute"><strong> position: sticky; </strong></font></ul>
+
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.</p>
+
+<i>We will use the above list as an example to show the differences in positioning for the red text. Currently it has been given a absolute positioning.</i>
+
+<h3>position: relative;</h3>
+<p>An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+<h4>Example:</h4>
+<ul>static <font color="red" class="list-position-relative"><strong> position: static; </strong></font> </ul>
+<ul>relative <font color="red" class="list-position-relative"><strong> position: relative; </strong></font></ul>
+<ul>fixed <font color="red" class="list-position-relative"><strong> position: fixed; </strong></font></ul>
+<ul>absolute <font color="red" class="list-position-relative"><strong> position: absolute; </strong></font></ul>
+<ul>sticky <font color="red" class="list-position-relative"><strong> position: sticky; </strong></font></ul>
+<i> We can see above that the text is uneven, this is due to the positioning being relative to its initail position (the unevenness aligns with the other black text). To correct this we must use absolute positioning.</i>
+
+<h3>position: absolute;</h3>
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: A "positioned" element is one whose position is anything except static.</p>
+
+<h4>Example:</h4>
+<ul>static <font color="red" class="list-position-absolute"><strong> position: static; </strong></font> </ul>
+<ul>relative <font color="red" class="list-position-absolute"><strong> position: relative; </strong></font></ul>
+<ul>fixed <font color="red" class="list-position-absolute"><strong> position: fixed; </strong></font></ul>
+<ul>absolute <font color="red" class="list-position-absolute"><strong> position: absolute; </strong></font></ul>
+<ul>sticky <font color="red" class="list-position-absolute"><strong> position: sticky; </strong></font></ul>
+<i> we can see above that this is the same as the original list. This absolute positioning is placed 150px from the left. This is it absolute position on the <strong>page</strong> not the <strong>screen</strong>. we can see this difference with the fixed postion.</i>
+
+<h3>position: fixed;</h3>
+<p>An element with position: fixed; is positioned relative to the viewport(screen), which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located.
+
+Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:</p>
+
+<h4>Example:</h4>
+<ul>static <font color="red" class="list-position-fixed"><strong> position: static; </strong></font></ul>
+<ul>relative <font color="red" class="list-position-fixed"><strong> position: relative; </strong></font></ul>
+<ul>fixed <font color="red" class="list-position-fixed"><strong> position: fixed; </strong></font></ul>
+<ul>absolute <font color="red" class="list-position-fixed"><strong> position: absolute; </strong></font></ul>
+<ul>sticky <font color="red" class="list-position-fixed"><strong> position: sticky; </strong></font></ul>
+
+<i>We can see on the right an example of a fixed position, this postioning keeps the selected items "fixed" to the same point on the screen.</i>
+
+<br></br>
+<br></br>
+
+
+        </div>
+
+
+        <footer class="footer-container">
+          <div class="footer-content">
+            <strong>
+              <li><a href="top" class="footer-nav-item">BACK TO TOP</a></li>
+              <li><a href="reflections.html" class="footer-nav-item"> REFLECTIONS</a></li>
+              <li><a href="aboutme.html" class="footer-nav-item">ABOUT ME</a></li>
+              <li><a href="contact.html" class="footer-nav-item">CONTACT</a></li>
+            </strong>
+          </div>
+        </footer>
+
+    </body>

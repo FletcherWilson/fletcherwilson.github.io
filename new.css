@@ -9,7 +9,7 @@ body{
 
 .header-nav{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   -ms-flex-align: right;
 }
 
@@ -33,6 +33,7 @@ body{
     display: block;
     text-align: right;
   }
+
 
 .header-container{
       display: flex;
@@ -62,6 +63,7 @@ display: flex;
 
 p {
 text-align: justify;
+
 }
 
 html, body {
@@ -87,8 +89,7 @@ img {
       box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
       position: float;
       width:100%;
-      left: 0px;
-      top: 0px;
+
 }
 
 .footer-content{
@@ -116,8 +117,7 @@ img {
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
   position: fixed;
   width:100%;
-  left: 0px;
-  top: 0px;
+
 }
 
 
@@ -128,3 +128,23 @@ img {
       top: 0px;
       z-index: -1;
     }
+
+.list-position-absolute {
+  position: absolute;
+  left: 150px;
+}
+
+.list-position-relative {
+  position: relative;
+  left: 150px;
+}
+.list-position-fixed {
+position: fixed;
+ bottom: 150px;
+ right: 0;
+ top: ;
+ length: 200px;
+ border: 5px solid black;
+ z-index: 11;
+
+}

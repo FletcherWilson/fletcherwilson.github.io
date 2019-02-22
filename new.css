@@ -18,22 +18,18 @@ h4 {
 
 }
 
-.header-nav{
-  display: flex;
-  flex-direction: row;
-  -ms-flex-align: right;
-}
 
 .header-nav-item{
   display: flex;
   padding: 5px 10px;
   color: black;
   text-decoration: none;
-  text-align: right;
-  justify-content: flex-end;
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
 
 }
+
 .page-container{
     display: flex;
     flex-direction: column;
@@ -56,22 +52,32 @@ h4 {
       left: 0px;
       top: 0px;
       flex-direction: row;
+      align-items: right;
 }
 
 .header-content{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-bottom: 10px;
-  width: 95%;
-  margin:auto;
+  width:700px;
+  margin:10px;
+  align-items: right;
   }
 
 .header-item{
 display: flex;
 
 }
-
+.header-nav{
+  flex-direction:row;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width:700px;
+  margin:10px;
+  align-items: right;
+}
 p {
 text-align: justify;
 

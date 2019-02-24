@@ -17,7 +17,10 @@ h3 {
 h4 {
 
 }
-
+.lego-engineer{
+  margin: auto;
+  
+}
 
 .header-nav-item{
   display: flex;
